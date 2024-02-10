@@ -3,7 +3,7 @@
 import random as rand
 from typing import List, Optional
 
-class CuckooHash24:
+class CuckooHash24_Delete:
 	def __init__(self, init_size: int):
 		self.__num_rehashes = 0
 		self.bucket_size = 4
